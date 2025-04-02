@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px
+}
+
+#progress .times,
+.card-footer,
+.volume-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.volume-container i{
+    margin-right: 15px;
+}
+#volume{
+    cursor: pointer;
+}
+
+li.playing{
+    background-color: #0b5eb7;
+    color: #fff;
+}
